@@ -2357,8 +2357,8 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
+  color: #d3d3e5;
+  background-color: #1a1a1a;
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -2382,7 +2382,7 @@ output {
   color: #777;
 }
 .form-control::-webkit-input-placeholder {
-  color: #777;
+  color: #d3d3e5;
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -2417,7 +2417,7 @@ input[type="month"].input-lg {
   line-height: 46px;
 }
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .radio,
 .checkbox {
