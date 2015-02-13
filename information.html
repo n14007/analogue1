@@ -1,10 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <link rel="stylesheet" href="./bootstrap.css">
+  <title>information</title>
 </head>
 <body>
-  
-</body>
+  <!--フォームの始まり-->
+  <div class="col-sm-offset-3 col-sm-7">
+    <section class="container">
+      <form action="" method="post">
+        <div class="form-horizontal">
+          <div class="form-group">
+            <div class="col-sm-7">
+              <input type="text"class="form-control" placeholder="Name" name="user_name" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-7">
+              <input type="text"class="form-control" placeholder="E-Mail" name="mail" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-7">
+            <input type="text"class="form-control" placeholder="Subject" name="title" />
+            </div>
+          </div>
+            <div class="form-group">
+              <div class="col-sm-7">
+                <textarea name="message"class="form-control" placeholder="Message" rows="4" cols="40" ></textarea>
+            </div>
+          </div>  
+          <div class="form-group"><!--ボタンの追加-->
+            <div class="col-sm-offset-6 col-sm-4">
+              <input type="submit"value="send"class="" />
+            </div>
+          </div>
+        </div>
+      </form> 
+    </section>
+  </div>
+  <!--formの終わり-->
+    <footer id="footer" class="container">
+      <div class="row">
+        <div class="col-md-12 footer_text">
+          <nav class="container padding-none">                       
+            <ul class="nav navbar-header nav-pills nav-justified">
+             <li class="active"><a href="#">TOP</a></li>
+             <li><a href="#">Collection</a></li>
+             <li><a href="#">analogue</a></li>
+             <li><a href="#">Dictionary</a></li>
+             <li><a href="#">information</a></li>
+            </ul>
+          </nav>
+        </div> 
+      </div>
+    </footer>
+    <!--footer終了--> 
+
+    </body> 
 </html>
