@@ -61,29 +61,29 @@
     <!--▼ 画像一覧▼  -->
     <div class="container">
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像1"><img src="./image/1.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery1 col-md-3 col-sm-3"><a href="大きい画像1"><img src="./image/1.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像2"><img src="./image/2.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery2 col-md-3 col-sm-3"><a href="大きい画像2"><img src="./image/2.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像3"><img src="./image/3.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery3 col-md-3 col-sm-3"><a href="大きい画像3"><img src="./image/3.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像4"><img src="./image/4.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery4 col-md-3 col-sm-3"><a href="大きい画像4"><img src="./image/4.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像5"><img src="./image/5.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery5 col-md-3 col-sm-3"><a href="大きい画像5"><img src="./image/5.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像6"><img src="./image/6.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery6 col-md-3 col-sm-3"><a href="大きい画像6"><img src="./image/6.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像7"><img src="./image/7.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery7 col-md-3 col-sm-3"><a href="大きい画像7"><img src="./image/7.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像8"><img src="./image/8.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery8 col-md-3 col-sm-3"><a href="大きい画像8"><img src="./image/8.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像9"><img src="./image/9.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery9 col-md-3 col-sm-3"><a href="大きい画像9"><img src="./image/9.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像10"><img src="./image/10.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery10 col-md-3 col-sm-3"><a href="大きい画像10"><img src="./image/10.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像11"><img src="./image/11.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery11 col-md-3 col-sm-3"><a href="大きい画像11"><img src="./image/11.jpg"alt="" width="160" height="160"></a></div>
 
-      <div class="gallery col-md-3 col-sm-3"><a href="大きい画像12"><img src="./image/12.jpg"alt="" width="160" height="160"></a></div>
+      <div class="gallery12 col-md-3 col-sm-3"><a href="大きい画像12"><img src="./image/12.jpg"alt="" width="160" height="160"></a></div>
 
     </div>
     <!-- ▲ 画像一覧▲  -->
@@ -118,19 +118,142 @@
           img_width = img.width;          // 幅
           img_height = img.height;        // 高さ
           img_ratio = img_height/img_width;   // 画像の幅高比
-   });
-      $('.gallery img').click(function(e) {
-        e.preventDefault();         // 規定のイベントを無効（リンク等）
+    });
 
+      $('.gallery1 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
         disp();                 // 拡大画像表示
-      //  フェードイン
-        $('#largeImg1 img').fadeIn();
+        //  フェードイン
+      $('#largeImg1 img').fadeIn();
       });
+
+
+      $('.gallery2 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg2 img').fadeIn();
+      });
+
+      $('.gallery3 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg3 img').fadeIn();
+      });
+
+      $('.gallery4 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg4 img').fadeIn();
+      });
+
+      $('.gallery5 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg5 img').fadeIn();
+      });
+
+      $('.gallery6 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg6 img').fadeIn();
+      });
+
+      $('.gallery7 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg7 img').fadeIn();
+      });
+
+      $('.gallery8 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg8 img').fadeIn();
+      });
+
+      $('.gallery9 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg9 img').fadeIn();
+      });
+
+      $('.gallery10 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg10 img').fadeIn();
+      });
+
+      $('.gallery11 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg11 img').fadeIn();
+      });
+
+      $('.gallery12 img').click(function(e) {
+        e.preventDefault();         // 規定のイベントを無効（リンク等）
+        disp();                 // 拡大画像表示
+        //  フェードイン
+      $('#largeImg12 img').fadeIn();
+      });
+
       //ウィンドウサイズ変更時
       jQuery.event.add(window, "resize", function(){disp();});    // 拡大画像表示
       // 暗幕と拡大画像を非表示
       $('#back-curtain, #largeImg1').click(function() {
         $('#largeImg1 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg2').click(function() {
+        $('#largeImg2 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg3').click(function() {
+        $('#largeImg3 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg4').click(function() {
+        $('#largeImg4 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg5').click(function() {
+        $('#largeImg5 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg6').click(function() {
+        $('#largeImg6 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg7').click(function() {
+        $('#largeImg7 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg8').click(function() {
+        $('#largeImg8 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg9').click(function() {
+        $('#largeImg9 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg10').click(function() {
+        $('#largeImg10 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg11').click(function() {
+        $('#largeImg11 img').fadeOut('slow', function() {$('#back-curtain').hide();});
+      });
+
+      $('#back-curtain, #largeImg12').click(function() {
+        $('#largeImg12 img').fadeOut('slow', function() {$('#back-curtain').hide();});
       });
 
       // 拡大画像表示サブルーチン
